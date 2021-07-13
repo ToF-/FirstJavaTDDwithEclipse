@@ -5,10 +5,12 @@
 	<groupId>com.example</groupId>
 	<artifactId>testmock</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<testSourceDirectory>src/test/java</testSourceDirectory>
 	</build>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>8</maven.compiler.source>
