@@ -32,3 +32,19 @@ Desmond  ,  95.95
 Note that the amounts are rounded and adjusted so that their sum is equal to the grand total.
 
 
+## 1 Given a list containing 1 order, calculate the total bill for this buyer
+
+    ORDER                                    |     BILL
+    item          unit price  qty buyer      |   amount  buyer
+    -----------------------------------------+------------------
+    pencils             0.50  20  Bertrand   |  10.0    Bertrand
+
+## 2 Given a list containing several orders for a same buyer, calculate the total bill for this buyer
+
+    ORDER                                    |     BILL
+    item          unit price  qty buyer      |   amount  buyer
+    -----------------------------------------+------------------
+    pencils             0.50  20  Bertrand   |  18.0    Bertrand
+    gift cards          8.00   1  Bertrand   |   
+
+
